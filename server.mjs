@@ -20,10 +20,10 @@ app.use("/api/v1", postRouter) // Secure api
 
 
 
-app.use(express.static(path.join(__dirname, 'express-mangodb-crud/build')))
+app.use(express.static(path.join(__dirname, 'public,express-mangodb-crud/build')))
 
 
-const PORT= 5001;
+const PORT= 3001;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 })
