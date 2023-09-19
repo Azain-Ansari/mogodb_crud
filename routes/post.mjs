@@ -11,7 +11,7 @@ let router = express.Router()
 
 
 router.post('/post', async (req, res, next) => {
-    console.log('this is signup!', new Date());
+    console.log('create post', new Date());
 
     if (
         !req.body.title

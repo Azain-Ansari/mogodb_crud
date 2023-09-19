@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
-const baseUrl = "http://localhost:3001";
+const baseUrl = "http://localhost:3000";
 
 const Home = () => {
 
